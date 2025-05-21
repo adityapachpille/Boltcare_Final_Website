@@ -6,24 +6,26 @@ import Image from 'next/image'
 
 const Footer = () => {
     return (
-        <footer  className='bg-gray-200 text-gray-700 px-6 py-10'>
+        <footer  className='bg-gray-200 text-gray-700 px-6 py-5 pt-10'>
             <div className='max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10'>
 
                 {/* Logo & Social */}
                 <div>
-                    <div className='mb-4 w-36'>
-                        <Image src="/pngboltcareblacklogo.png" alt="Logo" width={200} height={150} />
-                    </div>
+                    <div>
+                              <Image src="/newboltcarelogo.png" alt="Logo" width={200} height={150} />
+                            </div>
+                            <p className='mb-4 text-base'>Committed to excellence in every formulation.
+Boltcare Pharma – Where trust meets innovation.</p>
                     
-                    <p className='mb-4 text-lg'>Connect with us</p>
+                    <p className='mb-4 text-xl font-semibold'>Connect with us</p>
                     <div className='flex space-x-4'>
-                        <Link href='https://www.facebook.com/profile.php?id=61574585492384' target='_blank'>
+                        <Link href='#' target='_blank'>
                             <FaFacebookF className='text-blue-600 hover:text-blue-800' size={24} />
                         </Link>
-                        <Link href='https://wa.me/918806112331' target='_blank'>
+                        <Link href='https://wa.me/917559337386' target='_blank'>
                             <FaWhatsapp className='text-green-600 hover:text-green-800' size={24} />
                         </Link>
-                        <Link href='https://www.instagram.com/arp_digital_solutions/' target='_blank'>
+                        <Link href='https://www.instagram.com/boltcare_pharma/' target='_blank'>
                             <FaInstagram className='text-pink-500 hover:text-pink-700' size={24} />
                         </Link>
                     </div>
@@ -33,18 +35,18 @@ const Footer = () => {
                 <div>
                     <h2 className='text-2xl font-semibold mb-4'>Important Links</h2>
                     <ul className='space-y-2 text-lg'>
-                        <li><Link href='/' className='hover:text-black'>Home</Link></li>
-                        <li><Link href='#about' className='hover:text-black'>About Us</Link></li>
-                        <li><Link href='#services' className='hover:text-black'>Products</Link></li>
-                        <li><Link href='/careers' className='hover:text-black'>Careers</Link></li>
-                        <li><Link href='/contactus' className='hover:text-black'>Contact Us</Link></li>
+                        <li><Link href='/' className='hover:text-black text-base'>Home</Link></li>
+                        <li><Link href='/aboutus' className='hover:text-black text-base'>About Us</Link></li>
+                        <li><Link href='/#product' className='hover:text-black text-base'>Products</Link></li>
+                        <li><Link href='/careers' className='hover:text-black text-base'>Careers</Link></li>
+                        <li><Link href='/contactus' className='hover:text-black text-base'>Contact Us</Link></li>
                     </ul>
                 </div>
 
                 {/* Contact Info */}
                 <div>
                     <h2 className='text-2xl font-semibold mb-4'>Contact Us</h2>
-                    <ul className='space-y-3 text-lg'>
+                    <ul className='space-y-3  text-base'>
                         <li className='flex items-center gap-3'>
                             <FiPhone size={20} /> <span>+91 7559337386</span>
                         </li>
@@ -68,9 +70,19 @@ const Footer = () => {
             </div>
 
             {/* Bottom line */}
-            <div className='text-center text-xl text-gray-700 mt-10 border-t pt-4'>
-                © {new Date().getFullYear()} Boltcare Pharma Pvt Ltd. All rights reserved.
-            </div>
+           
+            <div className='text-center text-base text-gray-700 mt-10 border-t pt-4'>
+  Copyright © {new Date().getFullYear()}. All rights reserved by Boltcare Pharma | 
+  Design & Developed by  
+  <a
+    href="https://wa.me/918806112331"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <span></span>   ARP Digital Solutions
+  </a>.
+</div>
+
         </footer>
     )
 }

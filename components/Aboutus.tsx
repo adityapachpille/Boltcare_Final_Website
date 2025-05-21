@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link';
 import { Bookmark, BarChart, User } from 'lucide-react';
 
 const AboutUs = () => {
   return (
     <>
-    <section id='about' className="pt-48 md:pt-10 px-4 md:px-18 bg-white">
+    <section id='about' className="pt-20 md:pt-10 px-4 md:px-18 bg-white">
       {/* Centered Title */}
       <div className="text-center -mt-[120px] md:mt-0 mb-10">
         <h2 className="text-4xl font-bold text-gray-800">About Us</h2>
@@ -27,9 +28,11 @@ const AboutUs = () => {
           Our goal is simple—to make healthcare more accessible and reliable. By bridging the gap between manufacturing excellence and market availability, we ensure that quality medicines reach the people who need them most, on time and at the right value.
           </p>
 
-          <button className="bg-gray-200 text-black px-6 py-2 rounded-lg hover:bg-red-700 transition duration-300">
-  Learn More
-</button>
+        <Link href="/aboutus">
+  <button className="bg-gray-200 text-black px-6 py-2 rounded-lg hover:bg-[#94cace] transition duration-300">
+    Learn More
+  </button>
+</Link>
 
 
 
