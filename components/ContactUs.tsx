@@ -6,23 +6,25 @@ import Image from 'next/image';
 import emailjs from '@emailjs/browser';
 
 export default function ContactUs() {
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (!form.current) return;
 
     emailjs
       .sendForm(
-        'service_cjtpr2u', // ✅ Your EmailJS service ID
-        'template_nay2t7f', // ✅ Your EmailJS template ID
+        'service_cjtpr2u', // Your EmailJS service ID
+        'template_nay2t7f', // Your EmailJS template ID
         form.current,
-        'oOUEDp-V37t4F9rKP' // ✅ Your EmailJS public key
+        'oOUEDp-V37t4F9rKP' // Your EmailJS public key
       )
       .then(
         (result) => {
           console.log('SUCCESS!', result.text);
           alert('✅ Message sent successfully!');
-          form.current.reset();
+          form.current?.reset();
         },
         (error) => {
           console.log('FAILED...', error.text);
