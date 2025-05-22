@@ -18,13 +18,13 @@ const AboutUs = () => {
         {/* Text */}
         <div className="w-full md:w-1/2 space-y-4">
           <h3 className="text-2xl font-semibold text-gray-700">Building a Healthier Nation Through <br></br>Trusted Pharma Solutions</h3>
-          <p className="text-gray-600 text-base leading-relaxed">
+          <p className="text-gray-600 text-base leading-relaxed text-justify">
           We are a rising pharmaceutical company committed to building a healthier tomorrow by delivering quality, branded medicines to the Indian market. While we are new in name, our foundation is built on years of industry knowledge, compliance expertise, and a deep understanding of what healthcare providers and patients truly need.
           </p>
-          <p className="text-gray-600 text-base leading-relaxed">
+          <p className="text-gray-600 text-base leading-relaxed text-justify">
           Backed by WHO-GMP certified manufacturing partners, we bring to market a trusted line of safe, effective, and affordable medicines. From antibiotics and multivitamins to pain relievers and wellness products, our diverse product range is carefully curated to meet everyday health needs across multiple therapeutic areas.
           </p>
-          <p className="text-gray-600 text-base leading-relaxed">
+          <p className="text-gray-600 text-base leading-relaxed text-justify">
           Our goal is simple—to make healthcare more accessible and reliable. By bridging the gap between manufacturing excellence and market availability, we ensure that quality medicines reach the people who need them most, on time and at the right value.
           </p>
 
