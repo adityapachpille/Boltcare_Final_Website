@@ -11,10 +11,10 @@ const AboutUspage = () => {
     {/* Text */}
     <div className="w-full md:w-1/2 space-y-4">
       <h3 className="text-4xl font-semibold text-gray-700">Our Story</h3>
-      <p className="text-gray-600 text-base leading-relaxed">
+      <p className="text-gray-600 text-base leading-relaxed text-justify">
         We are an emerging pharmaceutical brand founded on a simple principle—healthcare should be affordable, accessible, and trustworthy. Instead of manufacturing in-house, we collaborate with reputed, certified manufacturers who follow strict international quality norms. Each product we bring to market is branded under our name and backed by science, testing, and compliance.
       </p>
-      <p className="text-gray-600 text-base leading-relaxed">
+      <p className="text-gray-600 text-base leading-relaxed text-justify">
          At Boltcare Pharma, we’re not just creating pharmaceutical products—we’re building a brand that people can trust. With a commitment to ethical business practices, continuous product development, and responsive customer support, we aim to become a reliable name in the Indian pharma landscape and a symbol of dependable healthcare.
       </p>
     </div>
@@ -45,10 +45,10 @@ const AboutUspage = () => {
             <Eye className="text-themeColor text-3xl" />
             <h3 className="text-xl md:text-2xl font-semibold text-gray-800">Our Vision</h3>
           </div>
-          <p className="text-gray-600 text-md">
+          <p className="text-gray-600 text-md text-justify">
           To become a trusted, go-to digital partner for startups, small businesses, and enterprises by delivering measurable results, fostering innovation, and building long-term relationships.
           </p>
-          <p className="text-gray-600 text-md">
+          <p className="text-gray-600 text-md text-justify">
           We envision a future where technology and creativity go hand-in-hand, helping businesses of all sizes succeed in a digital-first world.
           </p>
         </div>
@@ -59,10 +59,10 @@ const AboutUspage = () => {
             <Target className="text-themeColor text-3xl" />
             <h3 className="text-xl md:text-2xl font-semibold text-gray-800">Our Mission</h3>
           </div>
-          <p className="text-gray-600 text-md">
+          <p className="text-gray-600 text-md text-justify">
           To empower brands with tailored digital marketing strategies and cutting-edge technology solutions that drive growth, boost engagement, and create meaningful impact.
           </p>
-          <p className="text-gray-600 text-md">
+          <p className="text-gray-600 text-md text-justify">
           We aim to simplify the digital journey for our clients by providing end-to-end services—from brand building and lead generation to custom software development and automation.
           </p>
         </div>
