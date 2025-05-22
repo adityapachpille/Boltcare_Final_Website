@@ -18,7 +18,7 @@ export default function Whychoseus(){
     {/* Card 1 */}
     <div className="bg-[#f9fbfc] rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 border border-[#eff8fe]">
       <h3 className="text-xl font-semibold text-[#001428] mb-2">Focused on Branding, Backed by Expertise</h3>
-      <p className="text-gray-600">
+      <p className="text-gray-600 text-justify">
         We specialize in building a trusted pharmaceutical brand by sourcing high-quality, third-party manufactured products from certified facilities. Our focus is on creating value through reliable branding, strategic marketing, and customer-centric service—not just production.
       </p>
     </div>
@@ -26,7 +26,7 @@ export default function Whychoseus(){
     {/* Card 2 */}
     <div className="bg-[#f9fbfc] rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 border border-[#eff8fe]">
       <h3 className="text-xl font-semibold text-[#001428] mb-2">Quality Through Trusted Manufacturing Partners</h3>
-      <p className="text-gray-600">
+      <p className="text-gray-600 text-justify">
         Though we don’t manufacture ourselves, we collaborate only with WHO-GMP and ISO-certified manufacturers who meet stringent quality and regulatory standards. Each product we offer is thoroughly vetted to ensure safety, efficacy, and consistency under our brand.
       </p>
     </div>
@@ -34,7 +34,7 @@ export default function Whychoseus(){
     {/* Card 3 */}
     <div className="bg-[#f9fbfc] rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 border border-[#eff8fe]">
       <h3 className="text-xl font-semibold text-[#001428] mb-2">Pan-India Reach & Scalable Distribution</h3>
-      <p className="text-gray-600">
+      <p className="text-gray-600 text-justify">
        We ensure smooth logistics and timely delivery through an efficient distribution network, making our products available across India—whether in urban hospitals, retail counters, or rural markets.
 
 
@@ -44,7 +44,7 @@ export default function Whychoseus(){
     {/* Card 4 */}
     <div className="bg-[#f9fbfc] rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 border border-[#eff8fe]">
       <h3 className="text-xl font-semibold text-[#001428] mb-2">Transparent & Ethical Business Practices</h3>
-      <p className="text-gray-600">
+      <p className="text-gray-600 text-justify">
         At the core of Boltcare Pharma is a commitment to honesty, compliance, and long-term partnerships. We prioritize ethical marketing, transparent dealings, and trust in every business relationship we build.
       </p>
     </div>
