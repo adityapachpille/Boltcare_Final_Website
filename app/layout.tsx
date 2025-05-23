@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Boltcare Pharma ",
-  description: "Boltcare Pharma Pvt Ltd",
+  title: "Boltcare Pharma | Trusted Pharmaceutical Company",
+  description: "Boltcare Pharma is a leading pharmaceutical brand offering high-quality healthcare products in India.",
 };
 
 export default function RootLayout({
