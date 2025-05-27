@@ -22,7 +22,7 @@ Boltcare Pharma – Where trust meets innovation.</p>
                         <Link href='#' target='_blank'>
                             <FaFacebookF className='text-blue-600 hover:text-blue-800' size={24} />
                         </Link>
-                        <Link href='https://wa.me/917559337386' target='_blank'>
+                        <Link href='https://wa.me/919763714046' target='_blank'>
                             <FaWhatsapp className='text-green-600 hover:text-green-800' size={24} />
                         </Link>
                         <Link href='https://www.instagram.com/boltcare_pharma/' target='_blank'>
@@ -48,7 +48,7 @@ Boltcare Pharma – Where trust meets innovation.</p>
                     <h2 className='text-2xl font-semibold mb-4'>Contact Us</h2>
                     <ul className='space-y-3  text-base'>
                         <li className='flex items-center gap-3'>
-                            <FiPhone size={20} /> <span>+91 7559337386</span>
+                            <FiPhone size={20} /> <span>+91 7218703367</span>
                         </li>
                         <li className='flex items-center gap-3'>
                             <FiMail size={20} /> <span>boltcarepharma@gmail.com</span>
