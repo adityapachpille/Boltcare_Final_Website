@@ -94,6 +94,12 @@ const Careers = () => {
                 <strong>Business Development Executive (Intern)</strong><br />
                 Identify and onboard distributors, expand into new territories.
               </li>
+
+               <li className="mt-20">
+                📧 Email us at: boltcarepharma@gmail.com <br />
+
+📱 Message us on WhatsApp: 9763714046
+              </li>
             </ul>
           </div>
 
