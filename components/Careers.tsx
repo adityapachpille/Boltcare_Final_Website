@@ -98,8 +98,8 @@ const Careers = () => {
                <li className="mt-14">
                For career-related queries, email us at  <a href="mailto:boltcarepharma@gmail.com" className="text-blue-600">
                     boltcarepharma@gmail.com
-                  </a> or <br></br> message us on WhatsApp at  <a href="https://wa.me/9763714046" aria-label="WhatsApp" target="_blank">
- 9763714046
+                  </a> or <br></br> message us on WhatsApp at  <a href="https://wa.me/9763714046" aria-label="WhatsApp" target="_blank" className="text-blue-600">
+ 9763714046.
                 </a>
               </li>
             </ul>
