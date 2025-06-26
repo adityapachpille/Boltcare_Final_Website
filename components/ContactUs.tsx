@@ -140,7 +140,7 @@ export default function ContactUs() {
               <h3 className="text-2xl font-semibold text-gray-800">Contact Information</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>
-                  <strong>Phone:</strong> +91 7218703367
+                  <strong>Phone:</strong> +91 7218703367, +91 9763714046
                 </li>
                 <li>
                   <strong>Email:</strong>{' '}
