@@ -95,10 +95,12 @@ const Careers = () => {
                 Identify and onboard distributors, expand into new territories.
               </li>
 
-               <li className="mt-20">
-                📧 Email us at: boltcarepharma@gmail.com <br />
-
-📱 Message us on WhatsApp: 9763714046
+               <li className="mt-14">
+               For career-related queries, email us at  <a href="mailto:boltcarepharma@gmail.com" className="text-blue-600">
+                    boltcarepharma@gmail.com
+                  </a> or <br></br> message us on WhatsApp at  <a href="https://wa.me/9763714046" aria-label="WhatsApp" target="_blank">
+ 9763714046
+                </a>
               </li>
             </ul>
           </div>
