@@ -48,7 +48,7 @@ Boltcare Pharma – Where trust meets innovation.</p>
                     <h2 className='text-2xl font-semibold mb-4'>Contact Us</h2>
                     <ul className='space-y-3  text-base'>
                         <li className='flex items-center gap-3'>
-                            <FiPhone size={20} /> <span>+91 7218703367</span>
+                            <FiPhone size={20} /> <span>+91 7218703367,</span> <span>+91 9763714046</span>
                         </li>
                         <li className='flex items-center gap-3'>
                             <FiMail size={20} /> <span>boltcarepharma@gmail.com</span>
