@@ -9,7 +9,7 @@ const AboutUs = () => {
     <section id='about' className="pt-20 md:pt-10 px-4 md:px-18 bg-white">
       {/* Centered Title */}
       <div className="text-center -mt-[120px] md:mt-0 mb-10">
-        <h2 className="text-4xl font-bold text-gray-800">About Us</h2>
+        <h2 className="text-4xl font-bold text-gray-800">About Uss</h2>
       </div>
 
       {/* Content Section */}
