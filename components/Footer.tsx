@@ -78,7 +78,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="font-semibold hover:text-black"
         >
-          ARP Digital Solutions
+          ARP Digital Solutions00
         </a>
       </div>
     </footer>
