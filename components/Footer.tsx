@@ -70,7 +70,17 @@ const Footer = () => {
 
       {/* Bottom line */}
       <div className="text-center text-base text-gray-700 mt-10 border-t pt-4">
-        Copyright © {currentYear}. All rights reserved by Boltcare Pharma.  
+        Copyright © {currentYear}. All rights reserved by Boltcare Pharma.  {/* |
+        Design & Developed by{" "}
+        <a
+          href="https://wa.me/918806112331"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold hover:text-black"
+        >
+          ARP Digital Solutions
+        </a>
+        */}
       </div>
     </footer>
   )
