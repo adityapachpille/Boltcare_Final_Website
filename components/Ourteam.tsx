@@ -13,7 +13,7 @@ export default function Ourteam() {
 
       {/* About Section */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
-        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4 pt-30">
           Who We Are
         </h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto text-sm sm:text-base">
@@ -30,7 +30,7 @@ export default function Ourteam() {
           </h2>
 
           {/* GRID */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10 px-50">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10 px-50 sm:px-10">
 
             {team.map((member) => (
               <div
