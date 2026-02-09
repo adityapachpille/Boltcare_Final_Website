@@ -13,7 +13,7 @@ export default function Ourteam() {
 
       {/* About Section */}
       <section className="mx-auto px-4 py-10 lg:max-w-7xl lg:px-40">
-        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4 pt-30">
           Who We Are
         </h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto text-sm sm:text-base">
