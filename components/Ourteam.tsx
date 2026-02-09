@@ -36,7 +36,7 @@ export default function Ourteam() {
                 className="bg-white rounded-2xl shadow-md hover:shadow-xl transition w-full"
               >
                 {/* Image */}
-                <div className="h-[400px] sm:h-[400px]">
+                <div className="h-[420px] sm:h-[400px]">
                   <img
                     src={member.image}
                     alt={member.name}
