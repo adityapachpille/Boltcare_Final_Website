@@ -13,7 +13,13 @@ const Footer = () => {
 
         {/* Logo & Social */}
         <div>
-          <Image src="/newboltcarelogo.png" alt="Logo" width={200} height={150} />
+          <Image
+            src="/newboltcarelogo.png"
+            alt="Boltcare Pharma Logo"
+            width={200}
+            height={150}
+            priority
+          />
           <p className="mb-4 text-base">
             Committed to excellence in every formulation.
             Boltcare Pharma – Where trust meets innovation.
@@ -37,11 +43,21 @@ const Footer = () => {
         <div>
           <h2 className="text-2xl font-semibold mb-4">Important Links</h2>
           <ul className="space-y-2 text-lg">
-            <li><Link href="/" className="hover:text-black text-base">Home</Link></li>
-            <li><Link href="/aboutus" className="hover:text-black text-base">About Us</Link></li>
-            <li><Link href="/#product" className="hover:text-black text-base">Products</Link></li>
-            <li><Link href="/careers" className="hover:text-black text-base">Careers</Link></li>
-            <li><Link href="/contactus" className="hover:text-black text-base">Contact Us</Link></li>
+            <li>
+              <Link href="/" className="hover:text-black text-base">Home</Link>
+            </li>
+            <li>
+              <Link href="/aboutus" className="hover:text-black text-base">About Us</Link>
+            </li>
+            <li>
+              <Link href="/#product" className="hover:text-black text-base">Products</Link>
+            </li>
+            <li>
+              <Link href="/careers" className="hover:text-black text-base">Careers</Link>
+            </li>
+            <li>
+              <Link href="/contactus" className="hover:text-black text-base">Contact Us</Link>
+            </li>
           </ul>
         </div>
 
@@ -58,7 +74,7 @@ const Footer = () => {
               <span>boltcarepharma@gmail.com</span>
             </li>
             <li className="flex items-start gap-4">
-              <FiMapPin size={24} className="text-themeColor" />
+              <FiMapPin size={24} />
               <span className="text-justify">
                 SNO.32/5, Sai Aangan, Navecha Road, Gangotri Nagar,
                 Pimple Gurav, Pimpri-Chinchwad, Maharashtra 411061
@@ -69,9 +85,19 @@ const Footer = () => {
       </div>
 
       {/* Bottom line */}
-      
-
-      <div class="text-center text-base text-gray-700 mt-10 border-t pt-4">Copyright © {currentYear}. All rights reserved by Boltcare Pharma | Design &amp; Developed by<!-- --> <a href="https://wa.me/918806112331" target="_blank" rel="noopener noreferrer" class="font-semibold hover:text-black">ARP Digital Solutions</a></div>
+      <div className="text-center text-base text-gray-700 mt-10 border-t pt-4">
+        Copyright © {currentYear}. All rights reserved by Boltcare Pharma |
+        {' '}
+        Design &amp; Developed by{' '}
+        <a
+          href="https://wa.me/918806112331"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold hover:text-black"
+        >
+          ARP Digital Solutions
+        </a>
+      </div>
     </footer>
   )
 }
