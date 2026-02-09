@@ -71,8 +71,8 @@ const Footer = () => {
               <span>boltcarepharma@gmail.com</span>
             </li>
 
-            <li className="flex items-start gap-4">
-              <FiMapPin size={24} />
+            <li className="flex items-center gap-3">
+              <FiMapPin size={28} />
               <span>
                 SNO.32/5, Sai Aangan, Navecha Road, Gangotri Nagar,
                 Pimple Gurav, Pimpri-Chinchwad, Maharashtra 411061
