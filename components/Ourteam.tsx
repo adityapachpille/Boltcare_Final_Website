@@ -15,7 +15,7 @@ export default function Ourteam() {
    
 
       {/* About Section */}
-      <section className="max-w-6xl mx-auto px-4 py-12">
+      <section className="max-w-6xl mx-auto px-4 py-12 mt-40">
         <h2 className="text-3xl font-bold text-center mb-6">Who We Are</h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto">
           We are a team of passionate individuals dedicated to building high-quality,
