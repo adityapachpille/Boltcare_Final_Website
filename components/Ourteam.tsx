@@ -12,13 +12,7 @@ export default function Ourteam() {
     <div className="bg-white text-gray-800">
 
       {/* Hero Section */}
-      <div className="relative h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[90vh] w-full">
-        <img
-          src="/teamabout.png"
-          alt="About Hero"
-          className="w-full h-full object-cover"
-        />
-      </div>
+   
 
       {/* About Section */}
       <section className="max-w-6xl mx-auto px-4 py-12">
