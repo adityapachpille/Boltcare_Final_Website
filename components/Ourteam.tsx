@@ -30,7 +30,7 @@ export default function Ourteam() {
           </h2>
 
           {/* GRID */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10 px-40">
 
             {team.map((member) => (
               <div
@@ -41,7 +41,7 @@ export default function Ourteam() {
                 "
               >
                 {/* Image */}
-                <div className="h-[220px] sm:h-[300px] md:h-[340px]">
+                <div className="h-[340px] sm:h-[340px] md:h-[340px]">
                   <img
                     src={member.image}
                     alt={member.name}
