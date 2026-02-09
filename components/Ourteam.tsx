@@ -23,9 +23,14 @@ export default function Ourteam() {
       </section>
 
       {/* Team Section */}
-      <section className="bg-gray-50 py-10">
+      <section className="bg-gray-50 pt-14 sm:pt-8 pb-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8">
+
+          {/* HEADING FIX */}
+          <h2 className="
+            text-2xl sm:text-3xl font-bold text-center
+            mb-10 sm:mb-6
+          ">
             Meet Our Team
           </h2>
 
@@ -38,19 +43,24 @@ export default function Ourteam() {
                 className="
                   bg-white rounded-2xl shadow-md hover:shadow-xl transition
                   mx-auto w-full max-w-[360px] sm:max-w-none
+                  h-[420px] sm:h-[480px]
+                  flex flex-col
                 "
               >
-                {/* Image */}
-                <div className="h-[220px] sm:h-[300px] md:h-[340px]">
+                {/* IMAGE FIX */}
+                <div className="h-[220px] sm:h-[300px] flex items-center justify-center bg-gray-100">
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover"
+                    className="
+                      w-full h-full
+                      object-contain sm:object-cover
+                    "
                   />
                 </div>
 
-                {/* Content */}
-                <div className="p-4 sm:p-6 text-center">
+                {/* CONTENT */}
+                <div className="p-4 sm:p-6 text-center flex-1 flex flex-col justify-center">
                   <h3 className="text-lg sm:text-xl font-semibold">
                     {member.name}
                   </h3>
@@ -58,6 +68,7 @@ export default function Ourteam() {
                     {member.role}
                   </p>
                 </div>
+
               </div>
             ))}
 
