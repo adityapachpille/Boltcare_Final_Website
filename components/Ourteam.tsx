@@ -41,7 +41,7 @@ export default function Ourteam() {
                 "
               >
                 {/* Image */}
-                <div className="h-[360px] sm:h-[360px] md:h-[360px]">
+                <div className="h-[380px] sm:h-[380px] md:h-[380px]">
                   <img
                     src={member.image}
                     alt={member.name}
