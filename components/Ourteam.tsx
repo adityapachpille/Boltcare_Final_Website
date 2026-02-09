@@ -30,7 +30,7 @@ export default function Ourteam() {
           </h2>
 
           {/* GRID */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10 px-40">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10 px-50">
 
             {team.map((member) => (
               <div
