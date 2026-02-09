@@ -12,7 +12,7 @@ export default function Ourteam() {
     <div className="bg-white text-gray-800">
 
       {/* About Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-10">
+      <section className="mx-auto px-4 py-10 lg:max-w-7xl lg:px-40">
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
           Who We Are
         </h2>
@@ -24,20 +24,16 @@ export default function Ourteam() {
 
       {/* Team Section */}
       <section className="bg-gray-50 py-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="mx-auto px-4 lg:max-w-7xl lg:px-40">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8">
             Meet Our Team
           </h2>
 
-          {/* GRID */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
             {team.map((member) => (
               <div
                 key={member.name}
-                className="
-                  bg-white rounded-2xl shadow-md hover:shadow-xl transition
-                  w-full
-                "
+                className="bg-white rounded-2xl shadow-md hover:shadow-xl transition w-full"
               >
                 {/* Image */}
                 <div className="h-[320px] sm:h-[400px]">
