@@ -11,32 +11,37 @@ export default function Ourteam() {
   return (
     <div className="bg-white text-gray-800">
 
-      {/* Hero Section */}
-   
-
       {/* About Section */}
-      <section className="max-w-6xl mx-auto px-4 py-12 mt-40">
-        <h2 className="text-3xl font-bold text-center mb-6">Who We Are</h2>
-        <p className="text-center text-gray-600 max-w-3xl mx-auto">
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
+          Who We Are
+        </h2>
+        <p className="text-center text-gray-600 max-w-3xl mx-auto text-sm sm:text-base">
           We are a team of passionate individuals dedicated to building high-quality,
-          reliable, and impactful solutions. With a shared vision and strong leadership,
-          our goal is to make a difference in every project we undertake.
+          reliable, and impactful solutions.
         </p>
       </section>
 
       {/* Team Section */}
-      <section className="bg-gray-50 py-12">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-10">Meet Our Team</h2>
+      <section className="bg-gray-50 py-10">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8">
+            Meet Our Team
+          </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl px-50">
+          {/* GRID */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
+
             {team.map((member) => (
               <div
                 key={member.name}
-                className="bg-white  shadow-md hover:shadow-xl transition duration-300 overflow-hidden"
+                className="
+                  bg-white rounded-2xl shadow-md hover:shadow-xl transition
+                  mx-auto w-full max-w-[360px] sm:max-w-none
+                "
               >
                 {/* Image */}
-                <div className="h-[340px] w-full">
+                <div className="h-[220px] sm:h-[300px] md:h-[340px]">
                   <img
                     src={member.image}
                     alt={member.name}
@@ -45,14 +50,18 @@ export default function Ourteam() {
                 </div>
 
                 {/* Content */}
-                <div className="p-6 text-center">
-                  <h3 className="text-xl font-semibold">{member.name}</h3>
-                  <p className="text-gray-500 mt-1">{member.role}</p>
+                <div className="p-4 sm:p-6 text-center">
+                  <h3 className="text-lg sm:text-xl font-semibold">
+                    {member.name}
+                  </h3>
+                  <p className="text-gray-500 mt-1 text-sm sm:text-base">
+                    {member.role}
+                  </p>
                 </div>
               </div>
             ))}
-          </div>
 
+          </div>
         </div>
       </section>
     </div>
