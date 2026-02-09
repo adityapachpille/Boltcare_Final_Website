@@ -20,6 +20,7 @@ const Footer = () => {
             height={150}
             priority
           />
+
           <p className="mb-4 text-base">
             Committed to excellence in every formulation.
             Boltcare Pharma – Where trust meets innovation.
@@ -30,9 +31,11 @@ const Footer = () => {
             <Link href="#" target="_blank">
               <FaFacebookF className="text-blue-600 hover:text-blue-800" size={24} />
             </Link>
+
             <Link href="https://wa.me/919763714046" target="_blank">
               <FaWhatsapp className="text-green-600 hover:text-green-800" size={24} />
             </Link>
+
             <Link href="https://www.instagram.com/boltcare_pharma/" target="_blank">
               <FaInstagram className="text-pink-500 hover:text-pink-700" size={24} />
             </Link>
@@ -42,22 +45,12 @@ const Footer = () => {
         {/* Important Links */}
         <div>
           <h2 className="text-2xl font-semibold mb-4">Important Links</h2>
-          <ul className="space-y-2 text-lg">
-            <li>
-              <Link href="/" className="hover:text-black text-base">Home</Link>
-            </li>
-            <li>
-              <Link href="/aboutus" className="hover:text-black text-base">About Us</Link>
-            </li>
-            <li>
-              <Link href="/#product" className="hover:text-black text-base">Products</Link>
-            </li>
-            <li>
-              <Link href="/careers" className="hover:text-black text-base">Careers</Link>
-            </li>
-            <li>
-              <Link href="/contactus" className="hover:text-black text-base">Contact Us</Link>
-            </li>
+          <ul className="space-y-2 text-base">
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/aboutus">About Us</Link></li>
+            <li><Link href="/#product">Products</Link></li>
+            <li><Link href="/careers">Careers</Link></li>
+            <li><Link href="/contactus">Contact Us</Link></li>
           </ul>
         </div>
 
@@ -69,13 +62,15 @@ const Footer = () => {
               <FiPhone size={20} />
               <span>+91 7218703367, +91 9763714046</span>
             </li>
+
             <li className="flex items-center gap-3">
               <FiMail size={20} />
               <span>boltcarepharma@gmail.com</span>
             </li>
+
             <li className="flex items-start gap-4">
               <FiMapPin size={24} />
-              <span className="text-justify">
+              <span>
                 SNO.32/5, Sai Aangan, Navecha Road, Gangotri Nagar,
                 Pimple Gurav, Pimpri-Chinchwad, Maharashtra 411061
               </span>
@@ -86,8 +81,7 @@ const Footer = () => {
 
       {/* Bottom line */}
       <div className="text-center text-base text-gray-700 mt-10 border-t pt-4">
-        Copyright © {currentYear}. All rights reserved by Boltcare Pharma |
-        {' '}
+        Copyright © {currentYear}. All rights reserved by Boltcare Pharma |{' '}
         Design &amp; Developed by{' '}
         <a
           href="https://wa.me/918806112331"
