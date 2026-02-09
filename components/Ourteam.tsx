@@ -4,8 +4,8 @@ export default function Ourteam() {
     { name: 'Aditya Pachpille', role: 'Co-Founder', image: '/team/aditya.png' },
     { name: 'Suraj Patole', role: 'Director', image: '/team/user.png' },
     { name: 'Rushikesh Murade', role: 'Director', image: '/team/user.png' },
-    { name: 'Shubham Harne', role: 'Division Manager', image: '/team/user.png' },
-    { name: 'Sai Shete', role: 'Area Manager', image: '/team/user.png' },
+    { name: 'Shubham Harne', role: 'Executive Director', image: '/team/user.png' },
+    { name: 'Sai Shete', role: 'Executive Director', image: '/team/user.png' },
   ];
 
   return (
