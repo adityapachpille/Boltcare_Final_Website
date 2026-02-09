@@ -1,5 +1,5 @@
 import AboutUsPage from "@/components/AboutUsPage";
-import AboutUsPage from "@/components/Ourteam";
+import Ourteam from "@/components/Ourteam";
 export default function AboutusPage() {
     return(
         <>
