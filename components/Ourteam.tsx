@@ -24,7 +24,7 @@ export default function Ourteam() {
 
       {/* Team Section */}
       <section className="bg-gray-50 py-10">
-        <div className="mx-auto px-4 lg:max-w-7xl lg:px-40">
+        <div className="mx-auto px-4 lg:max-w-7xl lg:px-60">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8">
             Meet Our Team
           </h2>
@@ -36,7 +36,7 @@ export default function Ourteam() {
                 className="bg-white rounded-2xl shadow-md hover:shadow-xl transition w-full"
               >
                 {/* Image */}
-                <div className="h-[320px] sm:h-[400px]">
+                <div className="h-[400px] sm:h-[400px]">
                   <img
                     src={member.image}
                     alt={member.name}
