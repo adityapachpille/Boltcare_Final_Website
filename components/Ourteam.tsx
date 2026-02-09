@@ -2,12 +2,10 @@ export default function Ourteam() {
   const team = [
     { name: 'Bhavesh Raut', role: 'Founder', image: '/team/user.png' },
     { name: 'Aditya Pachpille', role: 'Co-Founder', image: '/team/aditya.png' },
-      { name: 'Suraj Patole', role: 'Director', image: '/team/user.png' },
-     { name: 'Rushikesh Murade', role: 'Director', image: '/team/user.png' },
+    { name: 'Suraj Patole', role: 'Director', image: '/team/user.png' },
+    { name: 'Rushikesh Murade', role: 'Director', image: '/team/user.png' },
     { name: 'Shubham Harne', role: 'Division Manager', image: '/team/user.png' },
     { name: 'Sai Shete', role: 'Area Manager', image: '/team/user.png' },
-
-  
   ];
 
   return (
@@ -15,7 +13,7 @@ export default function Ourteam() {
 
       {/* About Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-10">
-        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4 pt-30">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
           Who We Are
         </h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto text-sm sm:text-base">
@@ -32,22 +30,21 @@ export default function Ourteam() {
           </h2>
 
           {/* GRID */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10 px-50">
-
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
             {team.map((member) => (
               <div
                 key={member.name}
                 className="
                   bg-white rounded-2xl shadow-md hover:shadow-xl transition
-                  mx-auto w-full max-w-[360px] sm:max-w-none
+                  w-full
                 "
               >
                 {/* Image */}
-                <div className="h-[400px] sm:h-[400px] md:h-[400px]">
+                <div className="h-[320px] sm:h-[400px]">
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover rounded-t-2xl"
                   />
                 </div>
 
@@ -62,8 +59,8 @@ export default function Ourteam() {
                 </div>
               </div>
             ))}
-
           </div>
+
         </div>
       </section>
     </div>
