@@ -39,7 +39,7 @@ export default function Ourteam() {
             {team.map((member) => (
               <div
                 key={member.name}
-                className="bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden"
+                className="bg-white  shadow-md hover:shadow-xl transition duration-300 overflow-hidden"
               >
                 {/* Image */}
                 <div className="h-[320px] w-full">
