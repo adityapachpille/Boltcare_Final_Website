@@ -1,11 +1,11 @@
 export default function Ourteam() {
   const team = [
-    { name: 'Bhavesh Raut', role: 'Founder', image: '/team/bhavesh.jpeg' },
-    { name: 'Aditya Pachpille', role: 'Co-Founder', image: '/team/aditya.jpg' },
-    { name: 'Shubham Harne', role: 'Division Manager', image: '/team/shubham.jpg' },
-    { name: 'Sai Shete', role: 'Area Manager', image: '/team/sai.jpeg' },
-    { name: 'Rushikesh Murade', role: 'Director', image: '/team/rushi.jpeg' },
-    { name: 'Suraj Patole', role: 'Director', image: '/team/suraj.jpg' },
+    { name: 'Bhavesh Raut', role: 'Founder', image: '/team/user.png' },
+    { name: 'Aditya Pachpille', role: 'Co-Founder', image: '/team/aditya.png' },
+    { name: 'Shubham Harne', role: 'Division Manager', image: '/team/user.png' },
+    { name: 'Sai Shete', role: 'Area Manager', image: '/team/user.png' },
+    { name: 'Rushikesh Murade', role: 'Director', image: '/team/user.png' },
+    { name: 'Suraj Patole', role: 'Director', image: '/team/user.png' },
   ];
 
   return (
