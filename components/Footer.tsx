@@ -27,6 +27,7 @@ const Footer = () => {
           </p>
 
           <p className="mb-4 text-xl font-semibold">Connect with us</p>
+
           <div className="flex space-x-4">
             <Link href="#" target="_blank">
               <FaFacebookF className="text-blue-600 hover:text-blue-800" size={24} />
@@ -46,17 +47,18 @@ const Footer = () => {
         <div>
           <h2 className="text-2xl font-semibold mb-4">Important Links</h2>
           <ul className="space-y-2 text-base">
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/aboutus">About Us</Link></li>
-            <li><Link href="/#product">Products</Link></li>
-            <li><Link href="/careers">Careers</Link></li>
-            <li><Link href="/contactus">Contact Us</Link></li>
+            <li><Link href="/" className="hover:text-black">Home</Link></li>
+            <li><Link href="/aboutus" className="hover:text-black">About Us</Link></li>
+            <li><Link href="/#product" className="hover:text-black">Products</Link></li>
+            <li><Link href="/careers" className="hover:text-black">Careers</Link></li>
+            <li><Link href="/contactus" className="hover:text-black">Contact Us</Link></li>
           </ul>
         </div>
 
         {/* Contact Info */}
         <div>
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+
           <ul className="space-y-3 text-base">
             <li className="flex items-center gap-3">
               <FiPhone size={20} />
