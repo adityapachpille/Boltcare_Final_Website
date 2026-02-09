@@ -20,7 +20,7 @@ export default function Ourteam() {
         />
       </div>
 
-      {/* Company About Section */}
+      {/* About Section */}
       <section className="max-w-6xl mx-auto px-4 py-12">
         <h2 className="text-3xl font-bold text-center mb-6">Who We Are</h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto">
@@ -39,15 +39,22 @@ export default function Ourteam() {
             {team.map((member) => (
               <div
                 key={member.name}
-                className="bg-white rounded-2xl shadow-md p-6 text-center hover:shadow-xl transition duration-300"
+                className="bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden"
               >
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-40 h-40 object-cover rounded-full mx-auto mb-5"
-                />
-                <h3 className="text-xl font-semibold">{member.name}</h3>
-                <p className="text-gray-500 mt-1">{member.role}</p>
+                {/* Image */}
+                <div className="h-[320px] w-full">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+
+                {/* Content */}
+                <div className="p-6 text-center">
+                  <h3 className="text-xl font-semibold">{member.name}</h3>
+                  <p className="text-gray-500 mt-1">{member.role}</p>
+                </div>
               </div>
             ))}
           </div>
