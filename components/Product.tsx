@@ -24,7 +24,7 @@ const productData = [
   },
   {
     title: "PANTOLT-40",
-    image: "/pantolt40.png",
+    image: "/pan40.png",
     description: "Pantolt-40 is an effective acid-reducing medicine used to manage acid reflux, GERD, heartburn, and gastric ulcers by controlling excess stomach acid and supporting long-lasting digestive relief."
   },
  
