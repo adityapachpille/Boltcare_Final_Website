@@ -68,7 +68,7 @@ const Footer = () => {
 
             <li className="flex items-center gap-3">
               <FiMail size={20} />
-              <span>boltcarepharma@gmail.com</span>
+              <span>connect.boltcarepharma@gmail.com</span>
             </li>
 
             <li className="flex items-center gap-3">
