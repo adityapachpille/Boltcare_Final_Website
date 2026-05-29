@@ -2,7 +2,7 @@ export default function Ourteam() {
   const team = [
     { name: 'Bhavesh Raut', role: 'Founder', image: '/team/user.png' },
     { name: 'Aditya Pachpille', role: 'Co-Founder', image: '/team/aditya.png' },
-    { name: 'Suraj Patole', role: 'Director', image: '/team/user.png' },
+    { name: 'Suraj Padole', role: 'Director', image: '/team/user.png' },
     { name: 'Rushikesh Murade', role: 'Director', image: '/team/user.png' },
     { name: 'Shubham Harne', role: 'Executive Director', image: '/team/user.png' },
     { name: 'Sai Shete', role: 'Executive Director', image: '/team/user.png' },
