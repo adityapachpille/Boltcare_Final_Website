@@ -30,7 +30,7 @@ const productData = [
  
   {
     title: "CHOCOLATE PEANUT BUTTER CRUNCHY",
-    image: "/commingsoon.jpg",
+    image: "/CHOCOLATEPEANUTBUTTERCRUNCHY.png",
     description: "A delicious and protein-rich peanut butter blend with crunchy peanuts and rich chocolate flavor, perfect for breakfast, snacks, and fitness diets."
   },
 ];
