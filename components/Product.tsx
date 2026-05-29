@@ -29,9 +29,9 @@ const productData = [
   },
  
   {
-    title: "COMMING SOON",
+    title: "CHOCOLATE PEANUT BUTTER CRUNCHY",
     image: "/commingsoon.jpg",
-    description: "COMMING SOON"
+    description: "A delicious and protein-rich peanut butter blend with crunchy peanuts and rich chocolate flavor, perfect for breakfast, snacks, and fitness diets."
   },
 ];
 
